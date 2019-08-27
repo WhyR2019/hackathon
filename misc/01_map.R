@@ -13,4 +13,5 @@ ggplot(warsaw_wgs84, aes(x = longitude, y = latitude, col = district_name)) +
   coord_map() + 
   theme_minimal() +
   guides(col = guide_legend(title = 'District')) +
-  labs(title = 'Warsaw')
+  labs(title = 'Warsaw') 
+ggsave('plots/warsaw_05_wgs84.png')
