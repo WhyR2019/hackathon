@@ -116,14 +116,14 @@ You can find the example data to understand the structure of collected informati
         -   av\_time\_spent (average time spent in the place)
         -   place\_id, name and vicinity to join with [GCP Places API](https://developers.google.com/places/web-service/details) data
 
-|  hour|  occupacy\_index| occupacy\_text   | day    | av\_time\_spent                    | place\_id                    | name                | vicinity                 |
-|-----:|----------------:|:-----------------|:-------|:-----------------------------------|:-----------------------------|:--------------------|:-------------------------|
-|     6|                0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
-|     7|                0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
-|     8|                0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
-|     9|                7| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
-|    10|               12| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
-|    11|               19| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|  hour|  occupancy\_index| occupancy\_text  | day    | av\_time\_spent                    | place\_id                    | name                | vicinity                 |
+|-----:|-----------------:|:-----------------|:-------|:-----------------------------------|:-----------------------------|:--------------------|:-------------------------|
+|     6|                 0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|     7|                 0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|     8|                 0| NA               | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|     9|                 7| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|    10|                12| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
+|    11|                19| Usually not busy | Sunday | People typically spend 30 min here | ChIJHSD5vb\_NHkcRI6Yvq0Hqqto | Amrit Oriental Food | Grochowska 207, Warszawa |
 
 Scripts
 =======
