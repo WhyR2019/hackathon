@@ -115,8 +115,8 @@ knitr::kable(amrit)
     - Google Search allows to extract
         - the day of week
         - the hour of the day
-        - the occupacy index
-        - the occupacy text
+        - the occupancy index
+        - the occupancy text
         - av_time_spent (average time spent in the place)
         - place_id, name and vicinity to join with [GCP Places API](https://developers.google.com/places/web-service/details) data
         

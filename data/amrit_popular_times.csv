@@ -1,4 +1,4 @@
-hour,occupacy_index,occupacy_text,day,av_time_spent,place_id,name,vicinity
+hour,occupancy_index,occupancy_text,day,av_time_spent,place_id,name,vicinity
 6,0,,Sunday,People typically spend 30 min here,ChIJHSD5vb_NHkcRI6Yvq0Hqqto,Amrit Oriental Food,"Grochowska 207, Warszawa"
 7,0,,Sunday,People typically spend 30 min here,ChIJHSD5vb_NHkcRI6Yvq0Hqqto,Amrit Oriental Food,"Grochowska 207, Warszawa"
 8,0,,Sunday,People typically spend 30 min here,ChIJHSD5vb_NHkcRI6Yvq0Hqqto,Amrit Oriental Food,"Grochowska 207, Warszawa"
