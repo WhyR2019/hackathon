@@ -111,7 +111,11 @@ You can find the example data to understand the structure of collected informati
     -   Google Search allows to extract
         -   the day of week
         -   the hour of the day
-        -   the occupancy index
+        -   the occupancy index 
+            - the index denotes how busy a particular location is on a scale of 1-100 
+            (1 being the least busy, 100 being the busiest the location gets, 
+            0 --- the location is closed).
+            Values are based on a combination of Google searches, Google maps app location data, and local traffic data.
         -   the occupancy text
         -   av\_time\_spent (average time spent in the place)
         -   place\_id, name and vicinity to join with [GCP Places API](https://developers.google.com/places/web-service/details) data
