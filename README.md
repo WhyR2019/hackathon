@@ -47,7 +47,7 @@ Data
 Fishnet of Warsaw (WGS84)
 -------------------------
 
-![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_500m.png) ![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_1000m.png)
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_500m.png) ![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_1000m.png) ![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_100m.png)
 
 To call [GCP Places API](https://developers.google.com/places/web-service/details) we used a fishnet of Warsaw in WSG84 system. The fishnet we generated present grid of Warsaw after every 500 metres. For each point we called [GCP Places API](https://developers.google.com/places/web-service/details) to get all places of a specific [type]((https://developers.google.com/places/web-service/supported_types#table1)) within a range of `floor(500*sqrt(2)/2)` (~353) metres. Based on all 2058 points, we were able to extract all available places of a specific type in Warsaw.
 
