@@ -1,17 +1,30 @@
 library(magrittr)
-warsaw_wgs84 <- 
-  read.table('data/warsaw_05_wgs84.txt') %>%
+warsaw_wgs84_500 <- 
+  read.table('data/warsaw_wgs84_every_500m.txt') %>%
   set_colnames(c('longitude', 'latitude', 'district_n', 'district_name'))
+
+warsaw_wgs84_1000 <- 
+  read.table('data/warsaw_wgs84_every_1000m.txt') %>%
+  set_colnames(c('longitude', 'latitude', 'district_name'))
 
 library(ggplot2)
 library(maps)
 library(ggmap)
 library(ggthemes)
 
-ggplot(warsaw_wgs84, aes(x = longitude, y = latitude, col = district_name)) +
+ggplot(warsaw_wgs84_500, aes(x = longitude, y = latitude, col = district_name)) +
   geom_point() +
   coord_map() + 
   theme_minimal() +
   guides(col = guide_legend(title = 'District')) +
-  labs(title = 'Warsaw') 
-ggsave('plots/warsaw_05_wgs84.png')
+  labs(title = 'Warsaw, every 500m') 
+ggsave('plots/warsaw_wgs84_every_500m.png')
+
+
+ggplot(warsaw_wgs84_1000, aes(x = longitude, y = latitude, col = district_name)) +
+  geom_point() +
+  coord_map() + 
+  theme_minimal() +
+  theme(legend.position = 'None') +
+  labs(title = 'Warsaw, every 1000m') 
+ggsave('plots/warsaw_wgs84_every_1000m.png')

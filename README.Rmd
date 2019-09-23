@@ -50,7 +50,8 @@ Having such an interesting data one can immediately think about potential use ca
 
 ## Fishnet of Warsaw (WGS84)
 
-![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_05_wgs84.png)
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_500m.png)
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_1000m.png)
 
 To call [GCP Places API](https://developers.google.com/places/web-service/details) we used
 a fishnet of Warsaw in WSG84 system. The fishnet we generated present grid of Warsaw after every 500 metres.
@@ -117,6 +118,10 @@ knitr::kable(amrit)
         - the hour of the day
         - the occupancy index
         - the occupancy text
+            - the index denotes how busy a particular location is on a scale of 1-100 
+            (1 being the least busy, 100 being the busiest the location gets, 
+            0 --- the location is closed).
+            Values are based on a combination of Google searches, Google maps app location data, and local traffic data.
         - av_time_spent (average time spent in the place)
         - place_id, name and vicinity to join with [GCP Places API](https://developers.google.com/places/web-service/details) data
         

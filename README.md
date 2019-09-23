@@ -47,7 +47,7 @@ Data
 Fishnet of Warsaw (WGS84)
 -------------------------
 
-![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_05_wgs84.png)
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_500m.png) ![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/plots/warsaw_wgs84_every_1000m.png)
 
 To call [GCP Places API](https://developers.google.com/places/web-service/details) we used a fishnet of Warsaw in WSG84 system. The fishnet we generated present grid of Warsaw after every 500 metres. For each point we called [GCP Places API](https://developers.google.com/places/web-service/details) to get all places of a specific [type]((https://developers.google.com/places/web-service/supported_types#table1)) within a range of `floor(500*sqrt(2)/2)` (~353) metres. Based on all 2058 points, we were able to extract all available places of a specific type in Warsaw.
 
@@ -111,12 +111,9 @@ You can find the example data to understand the structure of collected informati
     -   Google Search allows to extract
         -   the day of week
         -   the hour of the day
-        -   the occupancy index 
-            - the index denotes how busy a particular location is on a scale of 1-100 
-            (1 being the least busy, 100 being the busiest the location gets, 
-            0 --- the location is closed).
-            Values are based on a combination of Google searches, Google maps app location data, and local traffic data.
+        -   the occupancy index
         -   the occupancy text
+            -   the index denotes how busy a particular location is on a scale of 1-100 (1 being the least busy, 100 being the busiest the location gets, 0 --- the location is closed). Values are based on a combination of Google searches, Google maps app location data, and local traffic data.
         -   av\_time\_spent (average time spent in the place)
         -   place\_id, name and vicinity to join with [GCP Places API](https://developers.google.com/places/web-service/details) data
 
