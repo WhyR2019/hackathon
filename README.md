@@ -53,35 +53,35 @@ To call [GCP Places API](https://developers.google.com/places/web-service/detail
 
 Since [GCP Places API](https://developers.google.com/places/web-service/details) is a paid platform, on a limit allowed for NGOs for free, we were able just to download few types of places. Below you can find types that we extracted
 
--   restaurant
--   local\_government\_office
--   supermarket
--   gym
--   store (X)
--   park
--   bar
--   cafe
--   bakery
--   museum
+-   restaurant (500m)
+-   local\_government\_office (500m)
+-   supermarket (500m)
+-   gym (500m)
+-   store (mixture of 500m and 100m)
+-   park (500m)
+-   bar (500m)
+-   cafe (500m)
+-   bakery (500m)
+-   museum (500m)
 -   doctor (1000m)
--   car\_wash (small)
--   taxi\_stand (small)
--   atm
--   beauty\_salon (small)
--   movie\_theater
--   gas\_station (small)
--   post\_office
--   night\_club (small)
--   pharmacy
--   city\_hall (small)
--   police (small)
--   dentist (small)
--   school
--   furniture\_store (small)
--   hospital (small)
--   veterinary\_care (small)
+-   car\_wash (2000m)
+-   taxi\_stand (2000m)
+-   atm (500m)
+-   beauty\_salon (2000m)
+-   movie\_theater (500m)
+-   gas\_station (2000m)
+-   post\_office (500m)
+-   night\_club (2000m)
+-   pharmacy (500m)
+-   city\_hall (2000m)
+-   police (2000m)
+-   dentist (2000m)
+-   school (500m)
+-   furniture\_store (2000m)
+-   hospital (2000m)
+-   veterinary\_care (2000m)
 
-> 1000m means ... small means ... X means it was a mixture of 500m grid and ...
+> values in the brackets denote how distant points on the grid are
 
 Hackathon data
 --------------
