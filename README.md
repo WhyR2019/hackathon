@@ -51,26 +51,37 @@ Fishnet of Warsaw (WGS84)
 
 To call [GCP Places API](https://developers.google.com/places/web-service/details) we used a fishnet of Warsaw in WSG84 system. The fishnet we generated present grid of Warsaw after every 500 metres. For each point we called [GCP Places API](https://developers.google.com/places/web-service/details) to get all places of a specific [type]((https://developers.google.com/places/web-service/supported_types#table1)) within a range of `floor(500*sqrt(2)/2)` (~353) metres. Based on all 2058 points, we were able to extract all available places of a specific type in Warsaw.
 
-Since [GCP Places API](https://developers.google.com/places/web-service/details) is a paid platform, on a limit allowed for NGOs for free, we were able just to download few types of places. Below you can find types that we are planning to extract, displayed in the order of priority
+Since [GCP Places API](https://developers.google.com/places/web-service/details) is a paid platform, on a limit allowed for NGOs for free, we were able just to download few types of places. Below you can find types that we extracted
 
--   restaurants
+-   restaurant
 -   local\_government\_office
 -   supermarket
--   movie\_theater
--   gas\_station
 -   gym
--   post\_office
+-   store (X)
+-   park
+-   bar
 -   cafe
--   night\_club
+-   bakery
+-   museum
+-   doctor (1000m)
+-   car\_wash (small)
+-   taxi\_stand (small)
+-   atm
+-   beauty\_salon (small)
+-   movie\_theater
+-   gas\_station (small)
+-   post\_office
+-   night\_club (small)
 -   pharmacy
--   city\_hall
--   police
--   dentist
--   doctor
+-   city\_hall (small)
+-   police (small)
+-   dentist (small)
 -   school
--   furniture\_store
--   hospital
--   veterinary\_care
+-   furniture\_store (small)
+-   hospital (small)
+-   veterinary\_care (small)
+
+> 1000m means ... small means ... X means it was a mixture of 500m grid and ...
 
 Hackathon data
 --------------

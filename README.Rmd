@@ -61,26 +61,39 @@ places of a specific [type]((https://developers.google.com/places/web-service/su
 `floor(500*sqrt(2)/2)` (~353) metres. Based on all 2058 points, we were able to extract all available
 places of a specific type in Warsaw.
 
-Since [GCP Places API](https://developers.google.com/places/web-service/details) is a paid platform, on a limit allowed for NGOs for free, we were able just to download few types of places. Below you can find types that we are planning to extract, displayed in the order of priority
+Since [GCP Places API](https://developers.google.com/places/web-service/details) is a paid platform, on a limit allowed for NGOs for free, we were able just to download few types of places. Below you can find types that we extracted
 
-- restaurants
+- restaurant
 - local_government_office
 - supermarket
-- movie_theater
-- gas_station
 - gym
-- post_office
+- store (X)
+- park
+- bar
 - cafe
-- night_club
+- bakery
+- museum
+- doctor (1000m)
+- car_wash (small)
+- taxi_stand (small)
+- atm
+- beauty_salon (small)
+- movie_theater
+- gas_station (small)
+- post_office 
+- night_club (small)
 - pharmacy
-- city_hall
-- police
-- dentist
-- doctor
+- city_hall (small)
+- police (small)
+- dentist (small) 
 - school
-- furniture_store
-- hospital
-- veterinary_care
+- furniture_store (small)
+- hospital (small)
+- veterinary_care (small)
+
+> 1000m means ...
+> small means ... 
+> X means it was a mixture of 500m grid and ...
 
 ## Hackathon data
 
