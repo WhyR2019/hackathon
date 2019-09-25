@@ -86,9 +86,9 @@ Since [GCP Places API](https://developers.google.com/places/web-service/details)
 Hackathon data
 --------------
 
-> Full data will be annouanced a day before the event.
+> Full data is available in the [data/](https://github.com/WhyR2019/hackathon/tree/master/data) places.csv + popular\_times\_1.csv + popular\_times\_2.csv
 
-You can find the example data to understand the structure of collected information in the [data/](https://github.com/WhyR2019/hackathon/tree/master/data) directory. Before we annouance the full data, you can find there
+You can find the example data to understand the structure of collected information in the
 
 -   amrit.csv
     -   example based on 7 Amrit Oriental Foods restaurants around Warsaw
@@ -107,6 +107,7 @@ You can find the example data to understand the structure of collected informati
         -   vicinity (a simplified address for the place)
         -   lat (latitude of the place in WGS84 *system*)
         -   lng (longitude of the place in WGS84 *system*)
+        -   type - which type was used for extraction in the API call
 
 | name                | vicinity                           | place\_id                    | types                                             |  rating|  user\_ratings\_total|  price\_level|       lat|       lng|
 |:--------------------|:-----------------------------------|:-----------------------------|:--------------------------------------------------|-------:|---------------------:|-------------:|---------:|---------:|
@@ -142,4 +143,9 @@ Scripts
 
 To use scripts on your own, get a Google Maps API key <https://developers.google.com/places/web-service/get-api-key>
 
-> Scripts used to download the data will be shared during the hackathon.
+In [scripts/](https://github.com/WhyR2019/hackathon/tree/master/scripts) you can find codes that we used to collect data.
+
+Organizers
+==========
+
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/organizers.png)
