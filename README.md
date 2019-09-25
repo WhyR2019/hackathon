@@ -9,6 +9,8 @@ This repository hosts data and scripts for Data Visualizations Hackathon ![](htt
 -   [Fishnet of Warsaw (WGS84)](#fishnet-of-warsaw-wgs84)
 -   [Hackathon data](#hackathon-data)
 -   [Scripts](#scripts)
+-   [Competition rules](#competition-rules)
+-   [Grading Criteria](#grading-criteria)
 
 > Idea based on [m-wrzr/populartimes](https://github.com/m-wrzr/populartimes)
 
@@ -148,4 +150,31 @@ In [scripts/](https://github.com/WhyR2019/hackathon/tree/master/scripts) you can
 Organizers
 ==========
 
-![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/organizers.png)
+![](https://raw.githubusercontent.com/WhyR2019/hackathon/master/organizers.png) \# Competition rules
+
+The goal of the hackathon is to build a dashboard, report or an application that uses Popular Times Data.
+
+This solution should present the information covered by the dataset in the efficient and accessible way.
+
+Grading Criteria
+================
+
+-   MANDATORY
+    -   Whether there is at least one visualization?
+    -   Is the solution based on Popular Times for Places data set?
+    -   Is the solution a result of the teamwork?
+-   EXTRA
+    -   Is the solution hosted in a public place (e.g. GitHub pages, shinyapps.io) (+0-10)
+    -   Does the solution use other data sources? (+0-5)
+-   QUALITY OF DESIGN
+    -   Information architecture - to what extent there is a visual hierarchy of information? (0-10)
+    -   Look and feel: Is the data legibly presented? (evaluation of contrast, colors, font size, how it looks on the screen) (0-20)
+-   ADEQUACY
+    -   Does the type of visualization used in the solution meet its assumptions and does it effectively present the selected data? (0-20)
+    -   Is the data visualization the main functionality of the solution, and not just a fancy addition? (0-10)
+-   BUSINESS RELEVANCE
+    -   Is this solution useful for the social good or has potential/clear business applications/story? (0-10)
+    -   Is there a clear business problem/story that you are explaining using your visualizations? (0-10)
+    -   How attractive is the use case? (0-5)
+-   PRESENATION
+    -   How well are you able to present your solution? (0-15)
