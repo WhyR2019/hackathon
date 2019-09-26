@@ -1,0 +1,40 @@
+---
+title: "inspection_of_data"
+author: "Bkaraban"
+date: "26 09 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Inspection on data
+
+```{r include=FALSE}
+
+library(tidyverse)
+library(inspectdf)
+
+load('data/200_raw_data_places.Rdata')
+```
+
+
+### Counting of NA's
+
+```{r}
+
+inspect_na(raw_data_places) %>% show_plot()
+#inspect_na(raw_data_popular_times) %>% show_plot()
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
